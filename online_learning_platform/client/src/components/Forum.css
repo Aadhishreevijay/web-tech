@@ -1,0 +1,69 @@
+.forum-container {
+    max-width: 800px; /* Set a maximum width for the forum */
+    margin: 0 auto; /* Center the container */
+    padding: 20px; /* Add padding */
+    background-color: #f9f9f9; /* Light background color */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  h2 {
+    text-align: center; /* Center the heading */
+    color: #333; /* Dark text color */
+  }
+  
+  .forum-form {
+    margin-bottom: 20px; /* Space below the form */
+  }
+  
+  textarea {
+    width: 100%; /* Full width */
+    padding: 10px; /* Inner padding */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    resize: none; /* Disable resizing */
+    font-size: 16px; /* Font size */
+  }
+  
+  button {
+    margin-top: 10px; /* Space above the button */
+    padding: 10px 15px; /* Padding for buttons */
+    background-color: #007bff; /* Primary button color */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth background color change */
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
+  
+  h3 {
+    margin-top: 30px; /* Space above the discussion history */
+    color: #333; /* Dark text color */
+  }
+  
+  .discussions-list {
+    margin-top: 20px; /* Space above the discussions list */
+  }
+  
+  .discussion-card {
+    background-color: #fff; /* White background for discussion cards */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 15px; /* Inner padding */
+    margin-bottom: 15px; /* Space below each discussion card */
+    transition: box-shadow 0.2s; /* Smooth shadow on hover */
+  }
+  
+  .discussion-card:hover {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Shadow on hover */
+  }
+  
+  .discussion-card small {
+    display: block; /* Make the date a block element */
+    color: #666; /* Gray color for date */
+    margin-top: 5px; /* Space above the date */
+  }
